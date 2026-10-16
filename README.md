@@ -1,5 +1,5 @@
 # Document Classification Using Machine Learning
-## Project Summary
+## Summary
 
 This project is an AI-powered Document Classification System that automatically categorizes business documents into predefined classes such as Invoice, Resume, Contract, and Purchase Order.
 
