@@ -160,5 +160,15 @@ pip install pandas
 pip install scikit-learn
 pip install openpyxl
 pip install joblib
+
+Future Enhancements
+Support additional document types
+Train on real-world business documents
+Improve OCR accuracy for scanned PDFs
+Extract key information (Invoice Number, Vendor Name, Contract Date, etc.)
+Deploy as a web application or API for enterprise use
+One-Line Resume Description
+
+Developed an AI-powered document classification system using UiPath, Python, TF-IDF, and Multinomial Naive Bayes to automatically categorize PDF documents such as invoices, contracts, and resumes with high accuracy.
 pip install pypdf
 
