@@ -168,7 +168,7 @@ Improve OCR accuracy for scanned PDFs
 Extract key information (Invoice Number, Vendor Name, Contract Date, etc.)
 Deploy as a web application or API for enterprise use
 One-Line Resume Description
-
+##Summary
 Developed an AI-powered document classification system using UiPath, Python, TF-IDF, and Multinomial Naive Bayes to automatically categorize PDF documents such as invoices, contracts, and resumes with high accuracy.
 pip install pypdf
 
