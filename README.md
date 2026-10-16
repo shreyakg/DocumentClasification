@@ -1,5 +1,11 @@
 # Document Classification Using Machine Learning
+## Project Summary
 
+This project is an AI-powered Document Classification System that automatically categorizes business documents into predefined classes such as Invoice, Resume, Contract, and Purchase Order.
+
+The solution combines UiPath for PDF text extraction and Python-based Machine Learning for document classification. Extracted document text is converted into numerical features using TF-IDF Vectorization and classified using a Multinomial Naive Bayes model.
+
+The trained model can classify new documents without retraining and can be integrated into UiPath workflows to automate document processing, routing, and validation. This reduces manual effort, improves accuracy, and increases operational efficiency in document-heavy business environments.
 ## Project Overview
 
 This project uses Machine Learning and Natural Language Processing (NLP) to automatically classify documents into different categories such as:
@@ -160,8 +166,7 @@ pip install pandas
 pip install scikit-learn
 pip install openpyxl
 pip install joblib
-
-Future Enhancements
+## Future Enhancements
 Support additional document types
 Train on real-world business documents
 Improve OCR accuracy for scanned PDFs
@@ -170,5 +175,6 @@ Deploy as a web application or API for enterprise use
 One-Line Resume Description
 ##Summary
 Developed an AI-powered document classification system using UiPath, Python, TF-IDF, and Multinomial Naive Bayes to automatically categorize PDF documents such as invoices, contracts, and resumes with high accuracy.
-pip install pypdf
+pip install pypdf 
+
 
