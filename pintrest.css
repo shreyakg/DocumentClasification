@@ -1,0 +1,180 @@
+.pin_img{
+    position: relative;
+    top: 4vh;
+    width: 402px;
+    height: 507px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 55px;
+    overflow: hidden;
+    transition: box-shadow 0.3s;
+}
+.save{
+        border-radius: 40px;
+        position: relative;
+        bottom: 522px;
+        left: 400px;
+        padding-top: 3px;
+        padding-bottom: 3px;
+        padding-left: 23px;
+        padding-right: 23px;
+        color: black;
+        transform: translateX(0px);
+        transition: transform 0.3s, opacity 0.2s;
+        background: radial-gradient(circle, rgba(78,208,15,0.1465628487723214) 9%, rgba(53,126,43,0.6507645294445903) 89%, rgba(1,10,0,0.9700922605370274) 100%);
+        right: 154px;
+        width: 32px;
+}
+.allign{
+    position: relative;
+    transform: translateX(3px);
+    transition: transform 1s, opacity 1s; 
+    left: 43px;
+}
+.save_overlay {
+        position: relative;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background: rgb(0, 0, 0);
+        background: linear-gradient(0deg, rgba(20, 18, 18, 0.002) 0%, rgba(0, 0, 0, 0) 40%);
+        transform: translateX(-70px);
+        transition: transform 0.3s;
+}
+
+.save span{
+    text-align: center;
+    padding: 4%;
+}
+.pin_img:hover .save {
+    transform: translateX(-100%);
+    opacity: 5;
+  }
+  
+.save:hover{
+    box-shadow: 20px 10px 40px -4px rgb(0 0 0 / 95%);
+    transform:translateX(-20px);
+    transition: transform 3s;
+      
+        
+}
+.more{
+    border-radius: 40px;
+    position: relative;
+    bottom: 181px;
+    left: 52px;
+    padding-bottom: 3px;
+    padding-left: 23px;
+    padding-right: 23px;
+    color: black;
+    transform: translateX(0px);
+    transition: transform 0.3s, opacity 0.2s;
+    background: radial-gradient(circle, rgba(78,208,15,0.1465628487723214) 9%, rgba(53,126,43,0.6507645294445903) 89%, rgba(1,10,0,0.9700922605370274) 100%);
+    right: 154px;
+    width: 32px;
+    text-size-adjust:9px;
+}
+
+.link{
+    border-radius: 40px;
+    color:black;
+    position: relative;
+    bottom: 181px;
+    left: 12px;
+    padding-bottom: 3px;
+    padding-left: 23px;
+    padding-right: 23px;
+    transform: translateX(0px);
+    transition: transform 0.3s, opacity 0.2s;
+    background: radial-gradient(circle, rgba(78,208,15,0.1465628487723214) 9%, rgba(53,126,43,0.6507645294445903) 89%, rgba(1,10,0,0.9700922605370274) 100%);
+    right: 154px;
+    width: 32px;
+}
+
+.download{
+    border-radius: 63px;
+    position: relative;
+    bottom: 181px;
+    left: -24px;
+    padding-top:  20px;
+    padding-bottom: 3px;
+    padding-left: 35px;
+    padding-right: 23px;
+    color: black;
+    transform: translateX(10px);
+    transition: transform 0.3s, opacity 0.2s;
+    background: radial-gradient(circle, rgba(78,208,15,0.1465628487723214) 9%, rgba(53,126,43,0.6507645294445903) 89%, rgba(1,10,0,0.9700922605370274) 100%);
+    right: 83px;
+    width: 62px;
+    align-items: baseline;
+}
+.dowload_overlay {
+    position: relative;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(0deg, rgba(20, 18, 18, 0.002) 0%, rgba(0, 0, 0, 0) 40%);
+    transform: translateX(-70px);
+    transition: transform 0.3s;
+}
+.link_overlay {
+    position: relative;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(0deg, rgba(20, 18, 18, 0.002) 0%, rgba(0, 0, 0, 0) 40%);
+    transform: translateX(-70px);
+    transition: transform 0.3s;
+}
+.more_overlay {
+    position: relative;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(0deg, rgba(20, 18, 18, 0.002) 0%, rgba(0, 0, 0, 0) 40%);
+    transform: translateX(-70px);
+    transition: transform 0.3s;
+    }
+.download:hover{
+    box-shadow: 20px 10px 40px -4px rgb(0 0 0 / 95%);
+    transform:translateX(-20px);
+    transition: transform 3s;
+  
+    
+}
+.link:hover{
+    box-shadow: 20px 10px 40px -4px rgb(0 0 0 / 95%);
+    transform:translateX(-20px);
+    transition: transform 3s;
+     
+}
+.more:hover{
+    box-shadow: 20px 10px 40px -4px rgb(0 0 0 / 95%);
+    transform:translateX(-20px);
+    transition: transform 3s;   
+}
+.download span{
+    text-align: center;
+    padding: 4%;
+}
+.download span{
+    text-align: center;
+    padding: 4%;
+}
+.download span{
+    text-align: center;
+    padding: 4%;
+}
+.pin_img:hover .allign{
+    transform: translateY(-70%);
+    opacity: 5;
+  }
+
+
